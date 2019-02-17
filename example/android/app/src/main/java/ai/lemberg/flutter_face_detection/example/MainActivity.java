@@ -1,4 +1,4 @@
-package ai.lemberg.flutterfacedetectionexample;
+package ai.lemberg.flutter_face_detection.example;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

@@ -1,4 +1,4 @@
-package ai.lemberg.flutterfacedetection;
+package ai.lemberg.flutter_face_detection;
 
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;

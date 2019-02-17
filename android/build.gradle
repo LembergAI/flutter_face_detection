@@ -1,4 +1,4 @@
-group 'ai.lemberg.flutterfacedetection'
+group 'ai.lemberg.flutter_face_detection'
 version '1.0-SNAPSHOT'
 
 buildscript {
