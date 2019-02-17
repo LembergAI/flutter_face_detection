@@ -1,0 +1,24 @@
+# See: https://www.dartlang.org/tools/pub/pubspec
+name: flutter_face_detection
+version: 0.0.0
+description: >-
+  Face detection for Flutter apps.
+author: Lemberg.AI <info@lemberg.ai>
+homepage: https://github.com/LembergAI/flutter_face_detection
+documentation:
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.1.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: any
+dependency_overrides:
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+executables:
+flutter:
+  plugin:
+    androidPackage: ai.lemberg.flutter_face_detection
+    pluginClass: FlutterFaceDetectionPlugin
