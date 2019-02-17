@@ -1,14 +1,12 @@
 /* This is free and unencumbered software released into the public domain. */
-import 'dart:async';
 
-import 'package:flutter/services.dart';
+/// Flutter plugin for face detection.
+///
+/// {@canonicalFor face.Face}
+/// {@canonicalFor face_detector.FaceDetector}
+/// {@canonicalFor face_painter.FacePainter}
+library flutter_face_detection;
 
-class FlutterFaceDetection {
-  static const MethodChannel _channel =
-      const MethodChannel('flutter_face_detection');
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+export 'src/face.dart' show Face;
+export 'src/face_detector.dart' show FaceDetector;
+export 'src/face_painter.dart' show FacePainter;
