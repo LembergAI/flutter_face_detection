@@ -1,6 +1,6 @@
 # See: https://www.dartlang.org/tools/pub/pubspec
 name: flutter_face_detection
-version: 0.0.0
+version: 0.1.0
 description: >-
   Face detection for Flutter apps.
 author: Lemberg.AI <info@lemberg.ai>
