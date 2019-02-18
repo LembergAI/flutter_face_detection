@@ -9,7 +9,7 @@ documentation:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_android: ^0.3.4
+  flutter_android: ^0.3.5
   meta: ^1.1.6
 dev_dependencies:
   flutter_test:
