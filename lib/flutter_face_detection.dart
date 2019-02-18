@@ -10,3 +10,5 @@ library flutter_face_detection;
 export 'src/face.dart' show Face;
 export 'src/face_detector.dart' show FaceDetector;
 export 'src/face_painter.dart' show FacePainter;
+
+export 'package:flutter_android/android_graphics.dart' show Bitmap;

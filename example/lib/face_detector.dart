@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_android/android_graphics.dart' show Bitmap;
 import 'package:flutter_face_detection/flutter_face_detection.dart';
 
 ////////////////////////////////////////////////////////////////////////////////
