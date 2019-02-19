@@ -2,7 +2,7 @@
 name: flutter_face_detection
 version: 0.2.0
 description: >-
-  Real-time, on-device face and eye detection for Flutter apps.
+  Real-time, on-device, offline face & eye detection for Flutter apps.
 author: Lemberg.AI <info@lemberg.ai>
 homepage: https://github.com/LembergAI/flutter_face_detection
 documentation:
