@@ -6,6 +6,8 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
+import ai.lemberg.sdk.Sdk;
+
 /** FaceDetectorHandler */
 class FaceDetectorHandler extends FlutterMethodCallHandler {
   static final String CHANNEL = "flutter_face_detection/FaceDetector";
@@ -21,7 +23,10 @@ class FaceDetectorHandler extends FlutterMethodCallHandler {
 
     assert(call.method != null);
     switch (call.method) {
-      // TODO
+      case "getVersion": {
+        result.success(Sdk.version());
+        break;
+      }
 
       default: {
         result.notImplemented();

@@ -3,10 +3,15 @@
 import 'package:flutter/material.dart';
 
 import 'face_detector.dart' show FaceDetectorDemo;
+import 'package:flutter_face_detection/flutter_face_detection.dart' show SDK;
 
 ////////////////////////////////////////////////////////////////////////////////
 
-void main() => runApp(App());
+void main() async {
+  final sdkVersion = await SDK.getVersion();
+  print("Lemberg.AI SDK $sdkVersion");
+  runApp(App());
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 
