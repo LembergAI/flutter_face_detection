@@ -6,12 +6,13 @@ Flutter Face Detection
 [![Dartdoc reference](https://img.shields.io/badge/dartdoc-reference-blue.svg)](https://pub.dartlang.org/documentation/flutter_face_detection/latest/)
 [![Travis CI build status](https://img.shields.io/travis/LembergAI/flutter_face_detection/master.svg)](https://travis-ci.org/LembergAI/flutter_face_detection)
 
-Real-time, on-device, offline face & eye detection for Flutter apps.
+This is a [Flutter](https://flutter.dev) plugin for real-time, on-device,
+offline face & eye detection.
 
 Screenshot
 ----------
 
-![Screenshot](https://raw.githubusercontent.com/LembergAI/flutter_face_detection/master/example/flutter_01.png)
+![Screenshot](https://raw.githubusercontent.com/LembergAI/flutter_face_detection/0.1.0/example/flutter_01.png)
 
 Features
 --------

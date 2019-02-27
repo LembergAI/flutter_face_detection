@@ -10,6 +10,7 @@ import 'package:flutter_face_detection/flutter_face_detection.dart' show SDK;
 void main() async {
   final sdkVersion = await SDK.getVersion();
   print("Lemberg.AI SDK $sdkVersion");
+  print(await SDK.detectFaces(null)); // TODO
   runApp(App());
 }
 
